@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <behaviours>
-  <target id="rect_contour">
-    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
-  </target>
   <target id="circle_close">
     <behaviour brightness="0" contrast="0" hue="0" saturation="1" type="behaviour\custom\ColorAdjustEffectBehaviour" when="HOVER"/>
   </target>
@@ -18,5 +15,17 @@
     <behaviour animated="1" direction="ALL" enabled="" gridX="1" gridY="1" limitedByParent="1" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
     <behaviour bodyType="STATIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[]" type="behaviour\custom\GameEntityBehaviour"/>
     <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.75" type="behaviour\custom\ScaleAnimationBehaviour" when="CLICK"/>
+  </target>
+  <target id="rect_contour">
+    <behaviour animated="1" opacity="0.9" opacityEnabled="1" type="behaviour\custom\DraggingFormBehaviour"/>
+  </target>
+  <target id="panel_logo">
+    <behaviour color="#b3b3b3" offsetX="0" offsetY="0" radius="10" spread="0" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+    <behaviour animated="1" direction="ALL" gridX="1" gridY="1" limitedByParent="1" opacity="0.5" opacityEnabled="" type="behaviour\custom\DraggingBehaviour"/>
+    <behaviour delay="0" duration="250" initialScale="1" repeatCount="-1" scale="0.75" type="behaviour\custom\ScaleAnimationBehaviour" when="CLICK"/>
+    <behaviour bodyType="DYNAMIC" fixtureType="INHERITED" solid="" solidType="THING" startVelocity="[0]" type="behaviour\custom\GameEntityBehaviour"/>
+  </target>
+  <target id="button_do">
+    <behaviour delay="0" duration="150" initialScale="1" repeatCount="-1" scale="0.9" type="behaviour\custom\ScaleAnimationBehaviour" when="HOVER"/>
   </target>
 </behaviours>

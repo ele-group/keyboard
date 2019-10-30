@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project author="vovav" authorOS="Windows 10" createdAt="1570214882347" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Output keyboard" packageName="kfio" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1570912815518">
+<project author="vovav" authorOS="Windows 10" createdAt="1570214882347" ideName="DevelNext" ideVersion="16.7.0" ideVersionHash="2017103112" name="Output keyboard" packageName="kfio" template="ide\project\templates\DefaultGuiProjectTemplate" updatedAt="1571765047528">
   <tree>
     <expanded>
     <path src=""/>
@@ -14,6 +14,7 @@
   <file src="Output keyboard.dnproject"/>
     <file src="src/kfio/modules/MainModule.php"/>
     <file selected="1" src="src/kfio/forms/MainForm.php"/>
+    <file src="src/kfio/forms/Android.php"/>
   </openedFiles>
   <files/>
   <behaviours>

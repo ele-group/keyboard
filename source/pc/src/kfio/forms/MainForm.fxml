@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480" prefWidth="720" styleClass="">
   <children>
-    <Rectangle arcHeight="12" arcWidth="12" fill="#ffffff" focusTraversable="false" height="720" id="rect_contour" layoutX="0" layoutY="0" stroke="#c0c0c0" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1280"/>
-    <Data cursor="DEFAULT" enabled="1" id="data-rect_contour" visible="1"/>
-    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="2" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_control" layoutX="1184" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="80" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+    <Rectangle arcHeight="36" arcWidth="36" fill="#ffffff" focusTraversable="false" height="480" id="rect_contour" layoutX="0" layoutY="0" stroke="#c0c0c0" strokeType="INSIDE" strokeWidth="2" styleClass="" width="720"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_control" layoutX="624" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="32" prefWidth="80" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
       <children>
         <Circle fill="#ff6666" focusTraversable="false" id="circle_close" layoutX="64" layoutY="16" radius="8" stroke="#ffffff" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
         <Circle fill="#99cc99" focusTraversable="false" id="circle_moving" layoutX="40" layoutY="16" radius="8" stroke="#ffffff" strokeType="INSIDE" strokeWidth="0" styleClass=""/>
@@ -17,7 +16,7 @@
       </titleFont>
     </Panel>
     <Data cursor="DEFAULT" enabled="1" id="data-panel_control" visible="1"/>
-    <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTextAreaFixed editable="true" focusColor="#4059a9" focusTraversable="true" id="text_area" layoutX="56" layoutY="168" prefColumnCount="40" prefHeight="456" prefWidth="1168" promptText="Введите текст" text="" unFocusColor="#4d4d4d" wrapText="true">
+    <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTextAreaFixed editable="true" focusColor="#e64d4d" focusTraversable="true" id="text_area" layoutX="48" layoutY="109" prefColumnCount="40" prefHeight="280" prefWidth="624" promptText="Введите текст" text="" unFocusColor="#ffffff" wrapText="true">
       <font>
         <Font name="Verdana" size="18"/>
       </font>
@@ -28,25 +27,34 @@
       </styleClass>
     </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTextAreaFixed>
     <Data cursor="TEXT" enabled="1" id="data-text_area" visible="1"/>
-    <com.jfoenix.controls.JFXButton alignment="CENTER" buttonType="RAISED" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="button_do" layoutX="1080" layoutY="656" prefHeight="32" prefWidth="144" ripplerFill="#b0006a" style="-fx-background-color: #ffffff;" styleClass="button jfx-button " text="Готово" textAlignment="LEFT" underline="false" wrapText="false">
-      <font>
-        <Font name="Verdana" size="18"/>
-      </font>
-    </com.jfoenix.controls.JFXButton>
-    <Data cursor="HAND" enabled="1" id="data-button_do" visible="1"/>
-    <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="label_title" layoutX="176" layoutY="96" prefHeight="30" prefWidth="696" styleClass="label " text="Output keyboard" textAlignment="LEFT" underline="false" wrapText="false">
-      <font>
-        <Font name="Trebuchet MS Bold" size="24"/>
-      </font>
-    </LabelEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-label_title" visible="1"/>
-    <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="96" id="image_logo" layoutX="40" layoutY="40" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="96">
-      <font>
-        <Font name="System Regular" size="12"/>
-      </font>
-    </ImageViewEx>
-    <Data cursor="DEFAULT" enabled="1" id="data-image_logo" image=".data/img/keyboard_default.png" visible="1"/>
-    <com.jfoenix.controls.JFXProgressBar focusTraversable="false" id="progressBar_load" layoutX="56" layoutY="656" opacity="0" prefHeight="32" prefWidth="144" progress="-1" styleClass="progress-bar jfx-progress-bar "/>
+    <com.jfoenix.controls.JFXProgressBar focusTraversable="false" id="progressBar_load" layoutX="48" layoutY="424" opacity="0" prefHeight="32" prefWidth="144" progress="-1" styleClass="progress-bar jfx-progress-bar "/>
     <Data cursor="DEFAULT" enabled="1" id="data-progressBar_load" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rect_contour" visible="1"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-panel_logo" visible="1"/>
+    <FlatButton alignment="CENTER" borderRadius="24" color="#4d4d4d" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" hoverColor="#333333" id="button_do" layoutX="528" layoutY="416" prefHeight="40" prefWidth="152" styleClass="x-flat-button " text="Перевод" textAlignment="CENTER" textFill="#ffffff" underline="false" wrapText="false">
+      <font>
+        <Font name="Trebuchet MS" size="20"/>
+      </font>
+    </FlatButton>
+    <Data cursor="HAND" enabled="1" id="data-button_do" visible="1"/>
+    <Panel backgroundColor="#ffffff" borderColor="#c0c0c0" borderRadius="18" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="panel_logo" layoutX="16" layoutY="16" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="56" prefWidth="272" styleClass="" titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+      <children>
+        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="40" id="img_logo" layoutX="8" layoutY="8" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="deceleration " textFill="#000000" width="40">
+          <font>
+            <Font name="System Regular" size="12"/>
+          </font>
+        </ImageViewEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-img_logo" image=".data/img/keyboard_default.png" visible="1"/>
+        <LabelEx alignment="BOTTOM_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="lbl_title" layoutX="56" layoutY="18" prefHeight="32" prefWidth="208" styleClass="label " text="Output keyboard" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+          <font>
+            <Font name="Trebuchet MS" size="26"/>
+          </font>
+        </LabelEx>
+        <Data cursor="DEFAULT" enabled="1" id="data-lbl_title" visible="1"/>
+      </children>
+      <titleFont>
+        <Font name="System Regular" size="12"/>
+      </titleFont>
+    </Panel>
   </children>
 </AnchorPane>

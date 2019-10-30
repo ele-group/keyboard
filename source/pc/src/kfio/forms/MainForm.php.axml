@@ -5,5 +5,19 @@
   
   
   
+  
+  
+  
+  
+  <method name="doButton_doMouseDownLeft">
+      <showPreloader value="Кушаю печеньку" value-type="string"/>
+      <fadeIn continue="" continue-type="" duration="250" duration-type="integer" object="progressBar_load" object-type="object"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <showPreloader value="Передаю данные" value-type="string"/>
+      <sleep sync="" sync-type="" value="1000" value-type="integer"/>
+      <fadeOut continue="" continue-type="" duration="250" duration-type="integer" object="progressBar_load" object-type="object"/>
+      <hidePreloader/>
+      <toast value="Устройство не подключено" value-type="string"/>
+    </method>
   </class>
 </root>
